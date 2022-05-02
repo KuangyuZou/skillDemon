@@ -3,7 +3,7 @@ public class connie{
     int[] array = {1,2,3,4,5};
     public int positiveNumber(){
         int count = 0;
-        for(int i = 0; i<=array.length; i++){
+        for(int i = 0; i<array.length; i++){
             if (array[i] > 0){
                 count++;
             }
